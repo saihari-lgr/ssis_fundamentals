@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ssisGo", "ssisGo\ssisGo.dtproj", "{003FCBC4-1FAB-40D8-B028-6E2DB5E34837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003FCBC4-1FAB-40D8-B028-6E2DB5E34837}.Development|Default.ActiveCfg = Development
+		{003FCBC4-1FAB-40D8-B028-6E2DB5E34837}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A918310-626F-4989-81D2-41965ABFD39B}
+	EndGlobalSection
+EndGlobal
