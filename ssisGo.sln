@@ -5,14 +5,6 @@ VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ssisGo", "ssisGo\ssisGo.dtproj", "{003FCBC4-1FAB-40D8-B028-6E2DB5E34837}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{725E280C-F4E4-4404-9DF9-F119096CA0DF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{355A7B15-6C31-4DAB-BEB2-0E1D66B72B64}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inbound", "Inbound", "{B8B27F39-1604-4FA6-A445-CE499A7B3FD3}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Outbound", "Outbound", "{7F8A7F54-58A1-48E9-BAAA-08326D2525E5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -23,10 +15,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{B8B27F39-1604-4FA6-A445-CE499A7B3FD3} = {355A7B15-6C31-4DAB-BEB2-0E1D66B72B64}
-		{7F8A7F54-58A1-48E9-BAAA-08326D2525E5} = {355A7B15-6C31-4DAB-BEB2-0E1D66B72B64}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A918310-626F-4989-81D2-41965ABFD39B}
