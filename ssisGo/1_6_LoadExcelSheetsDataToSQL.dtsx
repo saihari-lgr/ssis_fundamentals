@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{D547B224-246E-415D-AD67-44BC6ED67E7F}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{C463B821-508D-4645-930C-0277291B34AB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -31,6 +31,8 @@
       DTS:CreationName="OLEDB"
       DTS:DTSID="{4675547F-8F79-460C-9CB3-F4363572B9BD}"
       DTS:ObjectName="NSIN-LT-145\SQLEXPRESS.ProcessDB">
+      <DTS:PropertyExpression
+        DTS:Name="ConnectionString">@[$Project::oledbConnectionString]</DTS:PropertyExpression>
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
